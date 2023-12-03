@@ -1,0 +1,26 @@
+Results for Stock OTP:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              rateRatio   R-squared:                       0.042
+Model:                            OLS   Adj. R-squared:                  0.035
+Method:                 Least Squares   F-statistic:                     6.488
+Date:                Sat, 25 Nov 2023   Prob (F-statistic):             0.0119
+Time:                        22:35:12   Log-Likelihood:                 381.97
+No. Observations:                 151   AIC:                            -759.9
+Df Residuals:                     149   BIC:                            -753.9
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.9918      0.003    297.761      0.000       0.985       0.998
+Delta          0.0414      0.016      2.547      0.012       0.009       0.073
+==============================================================================
+Omnibus:                       27.993   Durbin-Watson:                   2.137
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               68.176
+Skew:                          -0.746   Prob(JB):                     1.57e-15
+Kurtosis:                       5.934   Cond. No.                         10.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

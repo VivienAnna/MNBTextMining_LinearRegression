@@ -1,0 +1,108 @@
+Results for Stock BUX:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              rateRatio   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                  0.025
+Method:                 Least Squares   F-statistic:                     2.914
+Date:                Sat, 18 Nov 2023   Prob (F-statistic):             0.0574
+Time:                        13:10:16   Log-Likelihood:                 446.48
+No. Observations:                 151   AIC:                            -887.0
+Df Residuals:                     148   BIC:                            -877.9
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          1.0125      0.012     83.992      0.000       0.989       1.036
+Positive      -0.0405      0.043     -0.941      0.348      -0.126       0.045
+Negative      -0.1223      0.071     -1.734      0.085      -0.262       0.017
+==============================================================================
+Omnibus:                       77.396   Durbin-Watson:                   1.974
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              515.054
+Skew:                          -1.703   Prob(JB):                    1.44e-112
+Kurtosis:                      11.382   Cond. No.                         81.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for Stock MOL:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              rateRatio   R-squared:                       0.023
+Model:                            OLS   Adj. R-squared:                  0.010
+Method:                 Least Squares   F-statistic:                     1.778
+Date:                Sat, 18 Nov 2023   Prob (F-statistic):              0.173
+Time:                        13:10:16   Log-Likelihood:                -618.04
+No. Observations:                 151   AIC:                             1242.
+Df Residuals:                     148   BIC:                             1251.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -2.6434     13.894     -0.190      0.849     -30.101      24.814
+Positive      28.5018     49.635      0.574      0.567     -69.584     126.587
+Negative     -13.9871     81.325     -0.172      0.864    -174.696     146.722
+==============================================================================
+Omnibus:                      229.914   Durbin-Watson:                   2.028
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            13449.288
+Skew:                           6.690   Prob(JB):                         0.00
+Kurtosis:                      47.256   Cond. No.                         81.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for Stock OTP:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              rateRatio   R-squared:                       0.045
+Model:                            OLS   Adj. R-squared:                  0.032
+Method:                 Least Squares   F-statistic:                     3.474
+Date:                Sat, 18 Nov 2023   Prob (F-statistic):             0.0336
+Time:                        13:10:16   Log-Likelihood:                 382.22
+No. Observations:                 151   AIC:                            -758.4
+Df Residuals:                     148   BIC:                            -749.4
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          1.0044      0.018     54.441      0.000       0.968       1.041
+Positive      -0.0030      0.066     -0.045      0.964      -0.133       0.127
+Negative      -0.1155      0.108     -1.070      0.287      -0.329       0.098
+==============================================================================
+Omnibus:                       27.748   Durbin-Watson:                   2.146
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               69.378
+Skew:                          -0.729   Prob(JB):                     8.60e-16
+Kurtosis:                       5.984   Cond. No.                         81.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Results for Stock Richter:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              rateRatio   R-squared:                       0.049
+Model:                            OLS   Adj. R-squared:                  0.036
+Method:                 Least Squares   F-statistic:                     3.823
+Date:                Sat, 18 Nov 2023   Prob (F-statistic):             0.0240
+Time:                        13:10:16   Log-Likelihood:                 405.31
+No. Observations:                 151   AIC:                            -804.6
+Df Residuals:                     148   BIC:                            -795.6
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          1.0416      0.016     65.783      0.000       1.010       1.073
+Positive      -0.1563      0.057     -2.763      0.006      -0.268      -0.045
+Negative      -0.2393      0.093     -2.583      0.011      -0.422      -0.056
+==============================================================================
+Omnibus:                       22.576   Durbin-Watson:                   1.947
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.105
+Skew:                          -0.819   Prob(JB):                     1.07e-07
+Kurtosis:                       4.556   Cond. No.                         81.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
